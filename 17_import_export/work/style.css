@@ -1,0 +1,8 @@
+@import url(./var.css);
+@import url(./colors.css);
+@import url(./fonts.css);
+
+body {
+    height: 100vh;
+    background-color: var(--test);
+}

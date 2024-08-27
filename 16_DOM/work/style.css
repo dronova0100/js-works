@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.main_header {
+    color: inherit;
+}
+
+#list li {
+    color:blue;
+}
+
+ol li:nth-child(2n + 1) {
+    color: red;
+}
+
+#buttons_block {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+#buttons_block {
+    border: 1px solid green;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.test input {
+    margin: 20px 0;
+}
+
+.active {
+    border: 1px solid orange;
+}
+
+div {
+    padding: 20px;
+}
+
+.first {
+    border: 1px solid red;
+}
+.second {
+    border: 1px solid orange;
+}
+.third {
+    border: 1px solid green;
+}
+
+.btn {
+    padding: 10px;
+}
